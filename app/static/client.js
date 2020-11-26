@@ -47,7 +47,8 @@ $(document).ready(function () {
 			}).done(function (data) {
 				console.log("Done Request!");
 				$("#result").html{(/*"Result= "+ */data.result);
-				if (data.result=="Strawberry___healthy")
+				var dresult =$("#result")
+				if (dresult=="Strawberry___healthy")
 					document.write("good");}
 			}).fail(function (e) {
 				console.log("Fail Request!");
