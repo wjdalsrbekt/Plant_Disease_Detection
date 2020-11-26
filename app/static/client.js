@@ -46,10 +46,10 @@ $(document).ready(function () {
 				contentType: false,
 			}).done(function (data) {
 				console.log("Done Request!");
-				$("#result").html{(/*"Result= "+ */data.result);
+				$("#result").html(/*"Result= "+ */data.result);
 				var dresult =$("#result")
 				if (dresult=="Strawberry___healthy")
-					document.write("good");}
+					document.write("good");
 			}).fail(function (e) {
 				console.log("Fail Request!");
 				console.log(e);
