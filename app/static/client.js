@@ -47,9 +47,6 @@ $(document).ready(function () {
 			}).done(function (data) {
 				console.log("Done Request!");
 				$("#result").html(/*"Result= "+ */data.result);
-				var dresult =$("#result")
-				if (dresult=="Strawberry___healthy")
-					document.write("good");
 			}).fail(function (e) {
 				console.log("Fail Request!");
 				console.log(e);
