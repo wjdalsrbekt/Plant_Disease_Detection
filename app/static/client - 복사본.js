@@ -48,7 +48,6 @@ $(document).ready(function () {
 				console.log("Done Request!");
 				$("#result").html(/*"Result= "+ */data.result);
 				$("#result").html(document.write("Á¹·Á"));
-				$("#result").html if(data.result=="Strawberry___healthy")document.write("µþ±â");
 			}).fail(function (e) {
 				console.log("Fail Request!");
 				console.log(e);
