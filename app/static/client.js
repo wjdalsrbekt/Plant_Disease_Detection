@@ -47,6 +47,9 @@ $(document).ready(function () {
 			}).done(function (data) {
 				console.log("Done Request!");
 				$("#result").html(/*"Result= "+ */data.result);
+				var al=data.result;
+				alert(data.result);
+				alert(al);
 			}).fail(function (e) {
 				console.log("Fail Request!");
 				console.log(e);
