@@ -49,7 +49,7 @@ $(document).ready(function () {
 				$("#result").html(/*"Result= "+ */data.result);
 				var al=data.result;
 				if (al=="Strawberry___healthy")
-					alert("ë”¸ê¸°");
+					alert("µþ±â");
 				alert(al);
 			}).fail(function (e) {
 				console.log("Fail Request!");
