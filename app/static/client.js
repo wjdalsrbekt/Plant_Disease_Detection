@@ -47,6 +47,8 @@ $(document).ready(function () {
 			}).done(function (data) {
 				console.log("Done Request!");
 				$("#result").html(/*"Result= "+ */data.result);
+				if (data result=="Strawberry___healthy")
+					document.write("딸기 건강합니다");
 			}).fail(function (e) {
 				console.log("Fail Request!");
 				console.log(e);
@@ -58,3 +60,7 @@ $(document).ready(function () {
 		console.log("Submitted!");
 	});
 });
+
+
+
+
