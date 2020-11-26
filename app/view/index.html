@@ -15,11 +15,11 @@
 <body>
     <div class="container">
         <!--<div class="heading">
-            PLANT DISEASE DETECTOR
-        </div>-->
+        PLANT DISEASE DETECTOR
+    </div>-->
         <!--<div class="text">
-            <p><b>Share a picture of the plant and get immediate results!</b></p>
-        </div>-->
+        <p><b>Share a picture of the plant and get immediate results!</b></p>
+    </div>-->
         <!-- </div> -->
         <!--<div class="inner">11월23일-->
         <form id="analysis-form" enctype="multipart/form-data">
@@ -36,18 +36,19 @@
         </form>
         <div id="result"><b>Result</b></div>
         <script>
-            function func1(){ //Functions for logging in
-			var inputre = document.getElementById("result").value;
-			
-			if (inputre == "Strawberry___healthy")
-				{
-					alert("Login Success!");
-				}
-			else
-				alert("Login Failed!");
-			
-		}
+            function func1(){
+            var inputre = document.getElementById("result").value;
+
+            if (inputre == "Strawberry___healthy")
+            {
+            alert("Login Success!");
+            }
+            else
+            alert("Login Failed!");
+
+            }
         </script>
+        <input style="cursor:pointer;" class="type2" type="button" value="Login" onclick="func1();" />
     </div>
     <!--</div>11월23일-->
 
